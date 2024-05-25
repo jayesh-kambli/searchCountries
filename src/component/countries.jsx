@@ -46,7 +46,7 @@ export default function Countries() {
 
   const Card = ({ img, alt, name }) => {
     return (
-      <div className="Card">
+      <div className="countryCard">
         <img src={img} alt={alt} className="CardImage" />
         <h2 className="CardName">{name}</h2>
       </div>
